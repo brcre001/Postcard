@@ -1,0 +1,63 @@
+body {
+	background-color: black;
+	font-family: "Grandstander", cursive;
+}
+
+h1 {
+	padding: 10px;
+}
+
+.Geeks-image {
+	height: 60px;
+	width: 60px;
+	padding: 10px;
+}
+
+.postcard {
+	background: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+}
+
+.postcard-header {
+	display: flex;
+	justify-content: space-between;
+}
+
+.postcard-body {
+	display: flex;
+}
+
+.body-right {
+	padding: 5px;
+}
+
+.body-right input {
+	border-color: grey;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+}
+
+.body-left {
+	padding: 5px;
+}
+
+.postcard-footer {
+	text-align: center;
+}
+
+.p1 {
+	margin-top: 0px;
+}
+
+.button1 {
+	background-color: darkgrey;
+	padding: 5px;
+}
+
+.button1:hover {
+	background-color: lightgrey;
+	cursor: pointer;
+}

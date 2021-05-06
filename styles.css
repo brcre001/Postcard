@@ -1,23 +1,22 @@
+/* Main Styles */
+
 body {
-	background-color: black;
-	font-family: "Grandstander", cursive;
+	background: black;
+	font-family: "Itim", cursive;
 }
 
 h1 {
 	padding: 10px;
 }
 
-.Geeks-image {
-	height: 60px;
-	width: 60px;
-	padding: 10px;
-}
+/* Class Styles */
 
 .postcard {
 	background: white;
 	width: 400px;
 	height: 300px;
 	margin: auto;
+	border-radius: 5px;
 }
 
 .postcard-header {
@@ -25,12 +24,20 @@ h1 {
 	justify-content: space-between;
 }
 
+.Geeks-image {
+	height: 60px;
+	width: 60px;
+	margin: auto;
+	vertical-align: auto;
+}
+
 .postcard-body {
 	display: flex;
+	justify-content: space-between;
 }
 
 .body-right {
-	padding: 5px;
+	padding: 10px;
 }
 
 .body-right input {
@@ -38,10 +45,11 @@ h1 {
 	border-top: none;
 	border-left: none;
 	border-right: none;
+	border-width: 1px;
 }
 
 .body-left {
-	padding: 5px;
+	padding: 10px;
 }
 
 .postcard-footer {
@@ -55,9 +63,14 @@ h1 {
 .button1 {
 	background-color: darkgrey;
 	padding: 5px;
+	border-radius: 5px;
 }
 
 .button1:hover {
 	background-color: lightgrey;
 	cursor: pointer;
+}
+
+.button1:active {
+	background-color: gray;
 }
